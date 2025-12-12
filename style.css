@@ -1,0 +1,149 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    width: 100%;
+    background: #2b3a55;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-left {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/* DROPDOWN MENU */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    min-width: 180px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* HEADER LAYOUT */
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+/* PROFILE PHOTO */
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #ddd;
+}
+
+/* TEXT STYLES */
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    color: #444;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 3px 0;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+/* SKILLS TAGS */
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background: #e8e8e8;
+    padding: 6px 12px;
+    margin: 5px 5px 0 0;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* CERTIFICATIONS */
+.cert-list {
+    margin-top: 10px;
+}
+
+.cert-list a {
+    color: #2a6df4;
+    text-decoration: none;
+}
+
+.cert-list a:hover {
+    text-decoration: underline;
+}
